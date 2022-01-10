@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 20px;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #dfdfdf;
+}
+
+.panel-title th{
+    text-align: left;
+    font-weight: normal;
+    color: #747272;
+}
+
+th,td {
+    padding: 0.5rem;
+    border-bottom: 1px solid #c4c3c3
+}
+
+.panel-text td{
+    font-size: .9rem;
+    padding: 1.2rem 0.5rem;
+}
+
+
+.filtr th{
+    text-align: left;
+    font-size: .9rem;
+    color: black;
+}
