@@ -1,0 +1,73 @@
+body{
+    background-image: url(/Works/HTML-CSS/HtmlStructureAndNaming/images/bde7ac8121ee53787df8a57c4f54a5c1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgba(39,47,51, 0.5);
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.info{
+    display: flex;
+
+}
+
+.info div{
+    margin: 0 1rem;
+}
+
+.info i:not(.white){
+    margin-right: 1rem;
+    color: yellow;
+}
+
+.sm i{
+    margin-right: 2rem;
+    font-size: 12px;
+}
+
+.sm a{
+    color: white;
+}
+
+.sm i:hover{
+    color: yellow;
+}
+
+
+.imgtomain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.menu{
+    display: flex;
+    color: white;
+    padding: 3rem;
+}
+
+.menu li{
+    margin-right: 2rem;   
+}
+
+.menu li:hover{
+    color: yellow;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
