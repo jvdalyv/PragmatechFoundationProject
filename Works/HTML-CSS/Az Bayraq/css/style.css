@@ -11,7 +11,7 @@ body{
 }
 
 .flag:before, .flag:after{
-    display: inline-block;
+    display: block;
     content: " ";
     width: 1200px;
     height: 200px;
@@ -23,6 +23,6 @@ body{
     background-color: red;
 }
 
-.flag::before{
+.flag:before{
     background-color: blue;
 }
