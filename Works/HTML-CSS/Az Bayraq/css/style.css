@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flag{
+    width: 1200px;
+    height: 600px;
+    background-color: green;
+    
+}
+
+.flag:before, .flag:after{
+    display: inline-block;
+    content: " ";
+    width: 1200px;
+    height: 200px;
+}
+
+
+
+.flag:after{
+    background-color: red;
+}
+
+.flag::before{
+    background-color: blue;
+}
