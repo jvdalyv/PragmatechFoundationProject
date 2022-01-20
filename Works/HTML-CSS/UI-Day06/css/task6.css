@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: rgb(220, 220, 229);
+}
+
+a{
+    text-decoration: none;
+}
+
+.top-container{
+    background-color: white;
+    border-radius: .3rem;
+    box-shadow: 0 0 5px;
+    
+}
+
+.top-container-heading{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem;
+}
+
+.heading-news{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.heading-news-items{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 5px;
+    background-color: rgb(18, 111, 251);
+    border-radius: .5rem;
+}
+
+.round-icon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+}
