@@ -1,0 +1,89 @@
+/* Header top Settings */
+
+#header-top{
+    background-color:#222;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b2b2b2;
+    font-family: Poppins-Regular;
+    font-size: 12px;
+}
+
+.top-bar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar-right a{
+    color: #b2b2b2;
+    text-decoration: none;
+    border-right: 1px solid rgba(255,255,255,.3);
+    padding: .8rem 1.5rem;
+}
+
+.top-bar-right a:first-child{
+    border-left: 1px solid rgba(255,255,255,.3);
+}
+
+/* Header-menu Settings */
+
+#header-menu {
+    padding: 1rem 0rem;
+    height: 1000px;
+    background-image: url("https://cocainemodels.com/wp-content/uploads/2018/12/model-agentur-anschreiben-auftreten-bewerbung.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-menu .container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.menu-logo{
+    grid-column: 1/3;
+}
+
+.menu-left {
+    grid-column: 4/7;
+}
+
+.menu-left a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu-left ul{
+    display: flex;
+}
+
+.menu-left li{
+    margin-right: 15px;
+}
+
+
+.menu-right {
+    grid-column: 11/13;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-right i{
+    margin-right: 1rem;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+
+
